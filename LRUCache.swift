@@ -1,4 +1,10 @@
-
+/**
+ * Question Link: https://leetcode.com/problems/lru-cache/
+ * Primary idea: Use Doubly linked list and hash table to build the LRU cache.
+ * Time Complexity: O(1), Space Complexity: O(n)
+ *
+ */
+ 
 class DoublyLinkedList<K, V>{
     var key: K
     var value: V
